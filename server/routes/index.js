@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var path = require('path');
 
+
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/basic_walking_skeleton');
 

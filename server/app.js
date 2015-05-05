@@ -4,7 +4,7 @@ var index = require('./routes/index');
 var app = express();
 
 
-var server = app.listen(3000, function () {
+var server = app.listen(3002, function () {
     var port = server.address().port;
     console.log("Listening on port: ", port);
 });

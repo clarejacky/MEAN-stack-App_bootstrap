@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html ng-app="app">
-    <head lang="en">
+    <head>
+    <script lang="en"></script>
         <meta charset="UTF-8">
         <title>MEAN stack</title>
+
+        <link href="/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="/vendors/jquery/dist/jquery.min.js"></script>
+
+        <link href="/views/stylesheet.css" rel="stylesheet">
 
         <script src="/vendor/angular/angular.min.js" type="text/javascript"></script>
         <script src="/assets/scripts/app.min.js" type="text/javascript"></script>
     </head>
 <body>
+<div class="container">
 <h1>MEAN STACK APP</h1>
     <div ng-controller="IndexController">
         <p ng-show="cat.name">Your new cats name is: {{cat.name}}</p>
@@ -23,7 +30,7 @@
         </ul>
 
     </div>
-
+</div>
 
 </body>
 </html>
