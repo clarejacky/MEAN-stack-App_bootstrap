@@ -15,20 +15,20 @@
     </head>
 <body>
 <div class="container">
-<h1>MEAN STACK APP</h1>
+<h1 class="well">MEAN STACK APP</h1>
     <div ng-controller="IndexController">
         <p ng-show="cat.name">Your new cats name is: {{cat.name}}</p>
         <p ng-hide="cat.name">Enter your new cat's name!</p>
-
-        <form novalidate>
-            Name: <input type="text" ng-model="cat.name"/><br/>
+        <form novalidate class="col-md-4">
+            Name: <input type="text" ng-model="cat.name"/>
             <input type="submit" ng-click="add(cat)" value="Save"/>
         </form>
+        <div class="col-md-8 well">
         <h4>Cats</h4>
         <ul>
             <li ng-repeat="cat in cats">{{cat.name}}</li>
         </ul>
-
+        </div>
     </div>
 </div>
 

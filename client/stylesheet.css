@@ -4,3 +4,13 @@ input {
 li {
     list-style-type: none;
 }
+form {
+    display: inline-block;
+}
+.well {
+    background-color: lightcoral;
+    color: lightcyan;
+}
+body {
+    color: darkgrey;
+}
